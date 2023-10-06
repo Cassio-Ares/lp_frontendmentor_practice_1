@@ -1,0 +1,133 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: #37384e;
+  display: flex;
+  width: 100%;
+  min-height: 100vh;
+  font-family: "Roboto", sans-serif;
+}
+
+#container {
+  background: #fff;
+  width: 65%;
+  height: 70vh;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  position: relative;
+  border-radius: 1.5rem;
+  box-shadow: -33px 33px 99px #1d1d29, 33px -33px 99px #515373;
+
+  #text {
+    padding: 3rem;
+    color: #37384e;
+  }
+
+  #text h1 {
+    font-size: 3.8rem;
+    margin: 0;
+    line-height: 3rem;
+    padding-bottom: 0.5rem;
+  }
+
+  #text p {
+    font-weight: 600;
+  }
+
+  #details p {
+    display: flex;
+    align-items: center;
+  }
+
+  #details p > img {
+    padding-right: 2rem;
+  }
+
+  #details img {
+    width: 1rem;
+  }
+
+  #form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #form input {
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: 1px solid #303030;
+  }
+
+  #form label {
+    font-weight: bold;
+    padding: 0.5rem 0;
+    font-size: 0.8rem;
+  }
+
+  #figure img {
+    height: 24rem;
+    transform: scaleX(1.4);
+    margin: 1.2rem 4rem;
+  }
+}
+.btn {
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  background: rgb(255, 90, 103);
+  background: linear-gradient(
+    18deg,
+    rgba(255, 90, 103, 0.9637758062126931) 33%,
+    rgba(255, 102, 69, 1) 71%
+  );
+  color: aliceblue;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #222742;
+  box-shadow: 0 5px 5px #303030;
+}
+
+#card {
+  padding: 2rem;
+  background: #fff;
+  margin: auto;
+  border-radius: 1rem;
+  color: #37384e;
+  box-shadow: -33px 33px 99px #1d1d29, 33px -33px 99px #515373;
+  width: 23rem;
+  word-break: break-word;
+
+  #card h3 {
+    font-size: 3rem;
+    margin: 0;
+    line-height: 3rem;
+    padding-bottom: 0.5rem;
+  }
+  #card p {
+    padding-bottom: 0.5rem;
+  }
+
+  #card img {
+    width: 3rem;
+    margin-bottom: 1.5rem;
+  }
+}
+#card button {
+  width: 24rem;
+}
+
+#valid{
+  color:  rgb(255, 90, 103);
+  position: absolute;
+  left: 19rem;
+  font-size: .8rem;
+  font-weight: bold;
+  top: 18rem;
+}
+
+@media only screen and (max-width: 700px) {
+
+}
